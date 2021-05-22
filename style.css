@@ -236,3 +236,24 @@ footer p a {
     font-size: 12px;
   }
 }
+
+@media (max-width: 996px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    height: 65%;
+  }
+
+  .blue-card {
+    max-width: 100%;
+  }
+
+  .testimonial {
+    max-width: 100%;
+    margin-left: 0;
+    padding-bottom: 0px;
+  }
+}
