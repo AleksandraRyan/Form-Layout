@@ -202,7 +202,7 @@ footer p a {
   }
 
   form {
-    height: 65vh;
+    height: 70%;
   }
 
   .blue-card {
@@ -213,5 +213,26 @@ footer p a {
     max-width: 100%;
     margin-left: 0;
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form {
+    margin: 10px;
+  }
+
+  .blue-card {
+    padding: 15px 30px;
+  }
+
+  .blue-card li {
+    font-size: 15px;
+  }
+
+  .testimonial h3 {
+    font-size: 15px;
+  }
+  .testimonial p {
+    font-size: 12px;
   }
 }
